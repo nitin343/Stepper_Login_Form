@@ -6,7 +6,6 @@ import {CssBaseline , Container , Paper , Box} from "@material-ui/core";
 function App() {
   return (
     <>
-    <CssBaseline />
      <div className='Container' component={Box} p={4}>
       <div className='paper' component={Box} p={3} >
        <StepperForm />

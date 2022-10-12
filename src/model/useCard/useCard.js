@@ -37,36 +37,7 @@ export default function BasicCard() {
               </Card> 
             )
         })}
-    {/* <Card style={{margin: '0 20px', height: '160px', width:'160px'}}>
-      <CardContent>
-        <Typography  color="text.secondary" gutterBottom>
-         <Person />
-        </Typography>
-        <Typography style={{fontSize: '15px', fontWeight: '600'}} color="text.secondary" >
-          For Myself
-        </Typography>
-        <Typography style={{fontSize: '12px', fontWeight: '400' ,color:'rgb(176, 180, 170)'}} color="text.secondary" >
-          Write Better. 
-          Think more clearly.Stay organised
-        </Typography>
 
-      
-      </CardContent>
-    </Card>
-    <Card  style={{margin: '0 20px', height: '160px', width:'160px'}}>
-      <CardContent>
-        <Typography   color="text.secondary" gutterBottom>
-          <People />
-        </Typography>
-        <Typography style={{fontSize: '15px', fontWeight: '600'}} color="text.secondary" >
-          For Team
-        </Typography>
-        <Typography  style={{fontSize: '12px', fontWeight: '400' ,color:'rgb(176, 180, 170)'}}  color="text.secondary" >
-          Wikis, docs, tasks & projects, all in one place
-        </Typography>
-      
-      </CardContent>
-    </Card> */}
     </div>
     </>
   );
