@@ -41,7 +41,7 @@ export default function BasicTextFields(props) {
         props.placeholder.map((data , index) => {
             return (
               <div className='textField'>
-                <TextField className='form_field' style={{width: '50%'}} id="standard-basic" key={index} label={data} variant="outlined" />
+                <TextField className='form_field'  id="standard-basic" key={index} label={data} variant="outlined" />
                 </div>
             )
         })
