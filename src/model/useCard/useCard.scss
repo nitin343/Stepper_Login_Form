@@ -1,0 +1,14 @@
+.card_content{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+    Card{
+        margin: 0 20px;
+    }
+}
+
+.bg-change {
+    background: gray;
+    border: 2px solid blue;
+  }

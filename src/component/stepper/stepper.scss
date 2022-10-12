@@ -1,0 +1,45 @@
+.stepper_button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    width: 50%;
+}
+
+.Stepper_button_content{
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+
+}
+
+.launchPage{
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .circle-icon{
+        color: rgb(94, 49, 197);
+        font-size: 40px;
+        margin: 0 0 30px 0;
+    }
+
+    .congradulation{
+        font-size: 28px;
+        font-weight: 600;
+    }
+
+    .success{
+        font-size: 13px;
+        color: #8b9cac;
+    }
+}
+
+
+@media only screen and (min-width: 270px) and (max-width: 820px){
+    .stepper_button{
+        width: 90%;
+    }
+}
