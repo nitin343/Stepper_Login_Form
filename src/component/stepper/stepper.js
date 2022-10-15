@@ -10,7 +10,7 @@ function LaunchPage(){
       <div className='launchPage'>
        <CheckCircle className='circle-icon'/>
        <span className='congradulation'>Congratulations, Niteen!</span>
-       <span className='success message'>You have completed onboarding, you can start using the Eden.</span>
+       <span className='success_message'>You have completed onboarding, you can start using the Eden.</span>
       </div>
    )
 }
